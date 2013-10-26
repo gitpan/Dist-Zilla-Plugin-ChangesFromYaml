@@ -49,6 +49,8 @@ sub pmver {
 }
 
 eval { $v .= pmver('CPAN::Changes','any version') };
+eval { $v .= pmver('Carp','any version') };
+eval { $v .= pmver('DateTime::Format::CLDR','any version') };
 eval { $v .= pmver('Dist::Zilla::Role::FileMunger','any version') };
 eval { $v .= pmver('Exporter','any version') };
 eval { $v .= pmver('ExtUtils::MakeMaker','6.30') };
@@ -60,6 +62,7 @@ eval { $v .= pmver('Moose','any version') };
 eval { $v .= pmver('Test::CPAN::Meta','any version') };
 eval { $v .= pmver('Test::DZil','any version') };
 eval { $v .= pmver('Test::More','0.88') };
+eval { $v .= pmver('Test::Pod','1.41') };
 eval { $v .= pmver('YAML::XS','any version') };
 eval { $v .= pmver('namespace::autoclean','any version') };
 eval { $v .= pmver('strict','any version') };

@@ -21,6 +21,8 @@ my %WriteMakefileArgs = (
   "NAME" => "Dist::Zilla::Plugin::ChangesFromYaml",
   "PREREQ_PM" => {
     "CPAN::Changes" => 0,
+    "Carp" => 0,
+    "DateTime::Format::CLDR" => 0,
     "Dist::Zilla::Role::FileMunger" => 0,
     "Exporter" => 0,
     "Moose" => 0,
@@ -37,7 +39,7 @@ my %WriteMakefileArgs = (
     "Test::DZil" => 0,
     "Test::More" => "0.88"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

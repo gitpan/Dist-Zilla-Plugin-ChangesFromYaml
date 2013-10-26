@@ -1,6 +1,11 @@
-0.001 Sat Oct 26 20:51:53 MYT 2013
+0.002 2013-10-27 02:37:54 +0800
+ - Added support to convert the dates as well
+ - Added Travis-CI integration
+
+
+0.001 2013-10-26 20:51:53 +0800
  - First release
 
-0.001-TRIAL Sat Oct 26 20:47:24 MYT 2013
+0.001-TRIAL 2013-10-26 20:47:24 +0800
  - Initial version
 

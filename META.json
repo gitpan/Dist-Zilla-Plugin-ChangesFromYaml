@@ -1,0 +1,71 @@
+{
+   "abstract" : "convert Changes from YAML to CPAN::Changes::Spec format",
+   "author" : [
+      "Carlos Lima <carlos@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.130880",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Dist-Zilla-Plugin-ChangesFromYaml",
+   "no_index" : {
+      "directory" : [
+         "corpus"
+      ]
+   },
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::CPAN::Meta" : "0",
+            "version" : "0.9901"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "CPAN::Changes" : "0",
+            "Dist::Zilla::Role::FileMunger" : "0",
+            "Exporter" : "0",
+            "Moose" : "0",
+            "YAML::XS" : "0",
+            "namespace::autoclean" : "0",
+            "perl" : "5.010",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Spec" : "0",
+            "File::Temp" : "0",
+            "IO::Handle" : "0",
+            "IPC::Open3" : "0",
+            "Test::DZil" : "0",
+            "Test::More" : "0.88"
+         }
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/carloslima/dist-zilla-plugin-changesfromyaml/issues"
+      },
+      "homepage" : "https://github.com/carloslima/dist-zilla-plugin-changesfromyaml",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/carloslima/dist-zilla-plugin-changesfromyaml.git",
+         "web" : "https://github.com/carloslima/dist-zilla-plugin-changesfromyaml"
+      }
+   },
+   "version" : "0.001"
+}
+

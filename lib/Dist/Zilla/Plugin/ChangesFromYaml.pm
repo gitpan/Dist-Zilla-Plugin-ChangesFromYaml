@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::ChangesFromYaml;
 # ABSTRACT: convert Changes from YAML to CPAN::Changes::Spec format
-our $VERSION = '0.002'; # VERSION
+our $VERSION = '0.003'; # VERSION
 
 use Moose;
 with( 'Dist::Zilla::Role::FileMunger' );

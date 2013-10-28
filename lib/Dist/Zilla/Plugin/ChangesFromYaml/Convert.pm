@@ -1,7 +1,7 @@
 #!/usr/bin/env perl
 package Dist::Zilla::Plugin::ChangesFromYaml::Convert;
 
-our $VERSION = '0.002'; # VERSION
+our $VERSION = '0.003'; # VERSION
 
 use 5.010;
 use strict;
@@ -39,6 +39,12 @@ sub _convert_date {
 
     # `date` outputs:
     # pattern => 'ccc MMM dd HH:mm:ss zzz yyyy'
+    # Ugly hack. ccc doesn't seem to recognize UTC
+    # I don't know if this replacement is technically correct but solves my problem now.
+    if ($format =~ /ccc/ and $date =~ /UTC/) {
+        $date =~ s/UTC/GMT/;
+    }
+
     my $dt =
       DateTime::Format::CLDR->new( pattern => $format )->parse_datetime($date);
 

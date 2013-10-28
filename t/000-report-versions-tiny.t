@@ -62,6 +62,7 @@ eval { $v .= pmver('Moose','any version') };
 eval { $v .= pmver('Test::CPAN::Meta','any version') };
 eval { $v .= pmver('Test::DZil','any version') };
 eval { $v .= pmver('Test::More','0.88') };
+eval { $v .= pmver('Test::NoTabs','any version') };
 eval { $v .= pmver('Test::Pod','1.41') };
 eval { $v .= pmver('YAML::XS','any version') };
 eval { $v .= pmver('namespace::autoclean','any version') };

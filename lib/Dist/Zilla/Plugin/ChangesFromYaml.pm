@@ -1,6 +1,6 @@
 package Dist::Zilla::Plugin::ChangesFromYaml;
 # ABSTRACT: convert Changes from YAML to CPAN::Changes::Spec format
-our $VERSION = '0.003'; # VERSION
+our $VERSION = '0.004'; # VERSION
 
 use Moose;
 with( 'Dist::Zilla::Role::FileMunger' );
@@ -26,6 +26,10 @@ __PACKAGE__->meta->make_immutable;
 1;
 
 __END__
+
+=head1 NAME
+
+Dist::Zilla::Plugin::ChangesFromYaml - convert Changes from YAML to CPAN::Changes::Spec format
 
 =head1 SYNOPSIS
 

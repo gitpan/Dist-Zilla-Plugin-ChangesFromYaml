@@ -1,3 +1,7 @@
+NAME
+    Dist::Zilla::Plugin::ChangesFromYaml - convert Changes from YAML to
+    CPAN::Changes::Spec format
+
 SYNOPSIS
     In your 'dist.ini':
 

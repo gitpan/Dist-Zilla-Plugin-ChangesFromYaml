@@ -4,7 +4,7 @@
       "Carlos Lima <carlos@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132830",
+   "generated_by" : "Dist::Zilla version 5.015, CPAN::Meta::Converter version 2.132830",
    "license" : [
       "artistic_2"
    ],
@@ -71,6 +71,6 @@
          "web" : "https://github.com/carloslima/dist-zilla-plugin-changesfromyaml"
       }
    },
-   "version" : "0.003"
+   "version" : "0.004"
 }
 
